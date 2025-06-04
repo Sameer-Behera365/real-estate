@@ -27,7 +27,7 @@ a {
 }
 
 .innerWidth {
-  width: 90%;
+  width: 100%;
 }
 
 .flexCenter {
@@ -99,6 +99,18 @@ a {
   transform: scale(1.1);
 }
 
+.button{
+  font-weight:500;
+  color:0.6rem 1.4rem;
+  background-color:blue;
+  border:none;
+  border-radius:4px;
+  transition:all 200ms ease-in;
+}
+
+
+
+
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {
@@ -128,3 +140,4 @@ a {
   }
 }
 
+ 

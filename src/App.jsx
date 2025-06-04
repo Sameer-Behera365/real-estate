@@ -1,18 +1,20 @@
-import { useState } from 'react'
-import './App.css'
-import Header from './Component/Header/Header'
-import Extra from './Component/Extra/Extra'
+import "./App.css";
+import Extra from "./Components/Extra/Extra";
+import Header from "./Components/Header/Header";
+import Companies from "./Components/Companies/Companies";
+import Residencies from "./Components/Residencies/Residencies";
 
 function App() {
-
   return (
+    <div className="App">
       <div>
-      <Header/>
-      <p>Helo</p>
-      <Extra/>
+        <Header />
+        <Extra />
       </div>
-  )
+      <Companies/>    
+      <Residencies/>   
+    </div>
+
+  );
 }
-
-export default App
-
+export default App;

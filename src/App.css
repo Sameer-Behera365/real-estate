@@ -17,6 +17,7 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+  
 
 @keyframes logo-spin {
   from {
@@ -39,6 +40,21 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+
+/* 
+premade css was present originally
+----------------------------------------------------------------------------------------------*/
+.App {
+  position: relative;
+  overflow-x: clip;
+}
+
+.App > :nth-child(1) {
+  background-color: black;
+  position: relative;
 }
 
 
